@@ -1,7 +1,49 @@
-header {
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
     height: 48px;
+    width: 100%;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 32px rgba(0,0,0,.15);
 }
 
 .logo-container {
     background: linear-gradient(to bottom right,#c09,#f42 85%);
+    height: 100%;
+    overflow: auto;
+    padding: 16px 20px;
+    box-sizing: border-box;
 }
+
+.logo-container img {
+    width: 66px;
+    height: 16px;
+}
+
+.header-icon-cont {
+    font-size: 0;
+}
+
+.header-icon-cont button {
+    height: 48px;
+    width: 48px;
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    border-left: 1px solid rgb(231, 230, 230);
+}
+
+.fa-search {color: gray;}
+
+.fa-bars {color: #f42;}
+
+.left-float {float: left;}
+
+.right-float {float: right;}
+
+.clear {clear: both;}
+
