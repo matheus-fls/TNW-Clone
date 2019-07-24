@@ -1,0 +1,7 @@
+header {
+    height: 48px;
+}
+
+.logo-container {
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+}
