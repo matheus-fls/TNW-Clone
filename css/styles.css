@@ -5,18 +5,23 @@ body {
 nav {
     height: 48px;
     width: 100%;
-    overflow: auto;
+    display: flex;
     position: fixed;
     top: 0;
     box-shadow: 0 0 32px rgba(0,0,0,.15);
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 .logo-container {
     background: linear-gradient(to bottom right,#c09,#f42 85%);
     height: 100%;
-    overflow: auto;
     padding: 16px 20px;
     box-sizing: border-box;
+
 }
 
 .logo-container img {
@@ -26,6 +31,9 @@ nav {
 
 .header-icon-cont {
     font-size: 0;
+    display: flex;
+    justify-content: right;
+    text-align: end;
 }
 
 .header-icon-cont button {
@@ -40,13 +48,13 @@ nav {
 .fa-search {color: gray;}
 
 .fa-bars {color: #f42;}
-
+/*
 .left-float {float: left;}
 
 .right-float {float: right;}
 
 .clear {clear: both;}
-
+*/
 .hidden {display: none;}
 
 /* STAGE 2 */
@@ -68,4 +76,24 @@ nav {
         display: flex;
         flex-direction: column;
     }
+
+    nav {
+        height: 80px;
+    }
+
+    .top1-nav-container {
+        width: 662px;
+        height: 32px;
+        padding: 0;
+        background-color: black;
+        color: #fff;
+    }
+
+    .top1-nav-container a {color: #fff;}
+
+    .logo-container {
+        padding: 32px 20px;
+    }
+
+    .fa-bars {display: hidden;}
 }
