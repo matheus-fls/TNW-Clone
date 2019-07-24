@@ -52,6 +52,20 @@ nav {
 /* STAGE 2 */
 @media only screen and (min-width:768px){
     .hidden{
-        display: inline-block;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hidden ul{
+        display: inherit;
+    }
+
+    .hidden ul li{
+        display: inherit;
+    }
+
+    .nav-containers{
+        display: flex;
+        flex-direction: column;
     }
 }
