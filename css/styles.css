@@ -3,15 +3,13 @@ body {
     padding: 0;
 }
 
-header {display: flex;}
+header {box-shadow: 0 0 32px rgba(0,0,0,.15);}
 
 nav {
     height: 48px;
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
-    position: fixed;
-    top: 0;
-    box-shadow: 0 0 32px rgba(0,0,0,.15);
+    position: sticky;
     align-items: center;
 }
 
@@ -26,6 +24,7 @@ ul {
     height: 48px;
     padding: 16px 20px;
     box-sizing: border-box;
+    float: left;
 }
 
 .logo-container img {
@@ -48,7 +47,8 @@ ul {
 }
 
 .top2-nav-container {
-    margin-left: 130px;
+    /*margin-left: 130px;*/
+    width: auto;
     
 }
 
@@ -59,7 +59,7 @@ ul {
 }
 
 .top2-nav-container a {
-    padding-right: 22px;
+    padding-left: 22px;
     text-decoration: none;
     color: gray;
 }
@@ -69,54 +69,49 @@ ul {
 .fa-search {color: gray;}
 
 .fa-bars {color: #f42;}
-/*
-.left-float {float: left;}
 
-.right-float {float: right;}
-
-.clear {clear: both;}
-*/
 .hidden {display: none;}
 
 
-/*
-
 @media only screen and (min-width:768px){
+    .hidden2{
+        display: none;
+    }
+
     .hidden{
         display: flex;
         flex-direction: row;
     }
 
-    .hidden ul{
-        display: flex;
-    }
-
-    .hidden ul li{
-        display: flex;
-    }
-
-    .nav-containers{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    nav {
-        height: 80px;
-    }
-
     .top1-nav-container {
-        /*width: 662px;
+        width: auto;
         height: 32px;
         padding: 0;
         background-color: black;
+        align-items: center;
+    }
+
+    .top1-nav-container ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+    }
+
+    .top1-nav-container a {
+        color: gray;
+        text-decoration: none;
+        padding-left: 22px;
+    }
+
+    .top1-nav-container a:hover{
         color: #fff;
     }
 
-    .top1-nav-container a {color: #fff;}
 
-    .logo-container {
+    .logo-container{
+        height: 80px;
         padding: 32px 20px;
     }
+
+
 }
-*/
