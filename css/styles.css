@@ -108,25 +108,52 @@ main{
 }
 
 .common-article{
-    padding: 4px;
+    margin: 8px;
+    
 }
 
 .article-wrap{
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Museum-Wall-Mural-796x417.jpg") center center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1));
     height: 214px;
     width: 100%;
+    color: white;
 }
 
 .article-footer{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
+.background1 {
+    
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Museum-Wall-Mural-796x417.jpg") center center no-repeat;
+}
 
+.background2 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-6-796x417.jpg") center center no-repeat;
+}
 
+.background3 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/moralbehavior1200B-796x417.png") center center no-repeat; 
+    
+}
 
-/*.common-article a{
-    background: linear-gradient
-}*/
+.common-article a{
+    text-decoration: none;
+}
+
+.main-section {margin-bottom: 50px;}
+
+.news-image {
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+}
+
+.news-image img {
+    width: 100%;
+    height: 100%;
+}
+
 
 
 
@@ -173,6 +200,8 @@ main{
         height: 48px;
         padding: 16px 20px;
     }
+
+
 
 }
 
