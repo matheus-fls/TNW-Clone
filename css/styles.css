@@ -2,10 +2,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
 nav {
     height: 48px;
     width: 100%;
     display: flex;
+
     position: fixed;
     top: 0;
     box-shadow: 0 0 32px rgba(0,0,0,.15);
@@ -17,6 +19,8 @@ ul {
 }
 
 .logo-container {
+    display: flex;
+
     background: linear-gradient(to bottom right,#c09,#f42 85%);
     height: 100%;
     padding: 16px 20px;
@@ -57,7 +61,9 @@ ul {
 */
 .hidden {display: none;}
 
-/* STAGE 2 */
+
+/*
+
 @media only screen and (min-width:768px){
     .hidden{
         display: flex;
@@ -65,16 +71,17 @@ ul {
     }
 
     .hidden ul{
-        display: inherit;
+        display: flex;
     }
 
     .hidden ul li{
-        display: inherit;
+        display: flex;
     }
 
     .nav-containers{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     nav {
@@ -82,7 +89,7 @@ ul {
     }
 
     .top1-nav-container {
-        width: 662px;
+        /*width: 662px;*/
         height: 32px;
         padding: 0;
         background-color: black;
@@ -94,6 +101,5 @@ ul {
     .logo-container {
         padding: 32px 20px;
     }
-
-    .fa-bars {display: hidden;}
 }
+*/
