@@ -18,7 +18,7 @@ nav {
     box-shadow: 0 0 32px rgba(0,0,0,.15);
     align-items: center;
     align-self: flex-start;
-    z-index: 2;
+    z-index: 1;
     background-color: #fff;
 }
 
@@ -43,7 +43,7 @@ ul {
     padding: 16px 20px;
     width: 106px;
     box-sizing: border-box;
-    z-index: 50;
+    z-index: -1;
 }
 
 .logo-container img {
@@ -56,12 +56,12 @@ ul {
 .absolute-logo {
     position: absolute;
     top: 0;
-    left: -106px;;
-    z-index: 1;
+    left: -106px;
+    z-index: -1;
 }
 
 .absolute-logo img {
-    z-index: 1;
+    z-index: -1;
 }
 
 .header-icon-cont {
