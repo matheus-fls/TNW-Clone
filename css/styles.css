@@ -103,7 +103,30 @@ ul {
 
 .hidden {display: none;}
 
-main {height: 900px;}
+main{
+    clear: left;
+}
+
+.common-article{
+    padding: 4px;
+}
+
+.article-wrap{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Museum-Wall-Mural-796x417.jpg") center center no-repeat;
+    height: 214px;
+    width: 100%;
+}
+
+.article-footer{
+    padding-top: 100px;
+}
+
+
+
+
+/*.common-article a{
+    background: linear-gradient
+}*/
 
 
 
