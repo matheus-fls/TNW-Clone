@@ -3,14 +3,23 @@ body {
     padding: 0;
 }
 
-header {box-shadow: 0 0 32px rgba(0,0,0,.15);}
+header {
+    
+    overflow: auto;
+    
+}
 
 nav {
     height: 48px;
     /*width: 100%;*/
     display: flex;
     position: sticky;
+    top: 0px;
+    box-shadow: 0 0 32px rgba(0,0,0,.15);
     align-items: center;
+    align-self: flex-start;
+    z-index: 2;
+    background-color: #fff;
 }
 
 ul {
@@ -25,11 +34,34 @@ ul {
     padding: 16px 20px;
     box-sizing: border-box;
     float: left;
+    z-index: 10;
+}
+
+.logo-container2 {
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    height: 48px;
+    padding: 16px 20px;
+    width: 106px;
+    box-sizing: border-box;
+    z-index: 50;
 }
 
 .logo-container img {
     width: 66px;
     height: 16px;
+    z-index: 10;
+}
+
+
+.absolute-logo {
+    position: absolute;
+    top: 0;
+    left: -106px;;
+    z-index: 1;
+}
+
+.absolute-logo img {
+    z-index: 1;
 }
 
 .header-icon-cont {
@@ -47,7 +79,6 @@ ul {
 }
 
 .top2-nav-container {
-    /*margin-left: 130px;*/
     width: auto;
     
 }
@@ -71,6 +102,9 @@ ul {
 .fa-bars {color: #f42;}
 
 .hidden {display: none;}
+
+main {height: 900px;}
+
 
 
 @media only screen and (min-width:768px){
@@ -107,11 +141,20 @@ ul {
         color: #fff;
     }
 
-
     .logo-container{
         height: 80px;
         padding: 32px 20px;
     }
+
+    .absolute-logo {
+        height: 48px;
+        padding: 16px 20px;
+    }
+
+}
+
+@media only screen and (min-width:1024px){
+    .hidden3 {display: none;}
 
 
 }
