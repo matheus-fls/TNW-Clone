@@ -119,10 +119,17 @@ main{
     height: 214px;
     width: 100%;
     color: white;
+    position: relative;
 }
 
 .article-footer{
-    padding-top: 80px;
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;*/
 }
 
 .background1 {
