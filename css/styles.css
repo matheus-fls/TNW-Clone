@@ -11,7 +11,7 @@ nav {
     height: 48px;
     display: flex;
     position: sticky;
-    top: 0px;
+    top: 0;
     box-shadow: 0 0 32px rgba(0,0,0,.15);
     align-items: center;
     align-self: flex-start;
