@@ -142,6 +142,7 @@ main{
 
 .latest-news{
     margin: 8px;
+    padding-bottom: 50px;
 }
 
 .news-image {
@@ -297,5 +298,27 @@ footer {
 @media only screen and (min-width:1024px){
     .hidden3 {display: none;}
 
+    .background1 {
+        height: 540px;
+        background-size: cover;
+    }
 
+    .uncommon-article {
+        height: 262px;
+    }
+
+    .flex-col-cont {
+        width: 25%;
+    }
+
+    .news-image {max-height: 135px;}
+
+    .latest-news {
+        max-width: 1152px;
+        margin: auto;
+    }
+
+    .header-padder {
+        padding-left: 8px;
+    }
 }
