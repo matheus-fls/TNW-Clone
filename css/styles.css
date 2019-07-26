@@ -257,9 +257,36 @@ footer {
 
     .absolute-logo {
         height: 48px;
-        padding: 16px 20px;
+        padding: 16px 20px
     }
 
+    .background1{
+        box-sizing: border-box;
+        float: left;
+        width: 65%;
+        height: 400px;
+        /*background-size: 100% 100%;*/
+    }
+
+    .uncommon-article{
+        box-sizing: border-box;
+        width: 31%;
+        float: left;
+        height: 191px;
+        margin-left: 0;
+    }
+
+    .main-section{
+        overflow: auto;
+    }
+
+    .latest-news{
+        clear: both;
+    }
+
+    .article-wrap{
+        height: 100%;
+    }
 
 
 }
