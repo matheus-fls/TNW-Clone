@@ -203,6 +203,19 @@ footer {
     list-style-type: none;
 }
 
+.round-btns a{
+    border: 1px gray solid;
+    border-radius: 50%;
+    background-color: gray;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.round-btns a:hover{
+    background-color: black;
+}
+
 @media only screen and (min-width:768px){
     .hidden2{
         display: none;
