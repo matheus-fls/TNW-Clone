@@ -193,12 +193,14 @@ body {
         }
         
         .funding-value {
+        background-color:rgb(255,68,34);
         background-color:rgba(255,68,34,.08);
         padding:10px;
         padding-left:82px;
         }
         
         .funding-cont {
+        background-color: rgb(255,68,34);
         background-color:rgba(255,68,34,0.05);
         margin:11px 0;
         position:relative;
@@ -295,6 +297,7 @@ body {
         }
         
         .latest-categories {
+        background-color:rgb(255,68,34);
         background-color:rgba(255,68,34,.08);
         display:flex;
         flex-direction:row;
