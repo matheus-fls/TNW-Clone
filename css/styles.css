@@ -19,7 +19,7 @@ nav {
     background-color: #fff;
 }
 
-ul {
+ul, h2 {
     padding: 0;
     margin: 0;
 }
@@ -142,7 +142,7 @@ main{
 
 .latest-news{
     margin: 8px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .news-image {
@@ -159,6 +159,73 @@ main{
     max-width: 675px;
     margin-left: 8px;
 }
+
+/*================================================================================
+                Funding Section
+    ===========================================================================*/
+
+    .funding-header {
+        background-color: #f42;
+        color: white;
+        padding: 10px;
+        padding-left: 82px;
+    }
+
+    .funding-value {
+        background-color: rgba(255,68,34,.08);
+        padding: 10px;
+        padding-left: 82px;
+    }
+
+    .funding-cont {
+        width: 100%;
+        position: relative;
+        background-color: rgba(255,68,34,0.05);
+        margin: 11px 0;
+    }
+
+    .funding-cont > a > p {padding: 11px;}
+
+    .funding-cont p {
+        font-size: 14px;
+        color: rgb(82, 81, 81);
+    }
+
+    .funding-cont a {color: black;}
+
+    .latest-funding {
+        padding: 20px;
+    }
+
+    .funding-img {
+        position: absolute;
+        left: 11px;
+        top: 11px;
+    }
+
+    .funding-img img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .funding-desc {
+        padding: 11px;
+        border-bottom: 1px solid rgba(255,68,34,0.4);
+    }
+
+    .funding-desc i {
+        padding-right: 11px;
+        color: black;
+    }
+
+    .header-padder, .header-padder a {color: #f42;}
+    .header-padder li{
+        list-style-type: none;
+        padding-bottom: 11px;
+    }
+
+    .header-padder a:hover{color: black;}
+    
 
 .flex-row-cont{
     display: flex;
