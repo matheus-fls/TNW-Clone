@@ -167,6 +167,10 @@ main{
     margin: 5px 0;
 }
 
+.hidden6{
+    display: none;
+}
+
 /*================================================================================
                 Funding Section
     ===========================================================================*/
@@ -506,6 +510,9 @@ footer {
     ===========================================================================*/
 
 @media only screen and (min-width:1024px){
+    .hidden5{display: none;}
+    .hidden6{display: block;}
+
     .hidden4{display: block;}
 
     .hidden3 {display: none;}
@@ -555,5 +562,16 @@ footer {
 
     .categories-img{
         height: 23.3vw;
+    }
+
+    .orange-gradient{
+        background: linear-gradient(to bottom right,rgba(255, 68, 34, 1), rgba(255, 68, 34, .9), rgba(255, 255, 255, 0) 60%);
+        height: 100%;
+    }
+
+    .orange-gradient img{
+        width: 60%;
+        max-width: 500px;
+        margin: 25px;
     }
 }
