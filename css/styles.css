@@ -160,6 +160,12 @@ main{
     margin-left: 8px;
 }
 
+.flex-row-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /*================================================================================
                 Funding Section
     ===========================================================================*/
@@ -225,13 +231,13 @@ main{
     }
 
     .header-padder a:hover{color: black;}
+
+    .hidden4{
+        display: none;
+    }
     
 
-.flex-row-cont{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
 
 h3, p{
     margin: 8px 0;
@@ -282,6 +288,12 @@ footer {
 .round-btns a:hover{
     background-color: black;
 }
+
+
+/*================================================================================
+                Media Query at Width > 768px;
+    ===========================================================================*/
+
 
 @media only screen and (min-width:768px){
     .hidden2{
@@ -373,9 +385,35 @@ footer {
         height: 15vw;
     }
 
+    .hidden4{
+        display: none;
+    }
+
+    .funding-cont{
+        height: 300px;
+    }
+
+    .header-padder ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bordered-ul{
+        border-left: 1px solid #f42;
+    }
+
+    .header-padder li{
+          padding: 0 10px;
+    }
 }
 
+/*================================================================================
+                Media Query at Width > 1024px
+    ===========================================================================*/
+
 @media only screen and (min-width:1024px){
+    .hidden4{display: block;}
+
     .hidden3 {display: none;}
 
     .background1 {
@@ -393,12 +431,27 @@ footer {
 
     .news-image {max-height: 135px;}
 
-    .latest-news {
-        max-width: 1152px;
-        margin: auto;
-    }
-
     .header-padder {
         padding-left: 8px;
+    }
+
+    .max-section-width{
+        max-width: 1152px;
+           margin: auto;
+    }
+
+    .header-padder{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-padder ul{
+        justify-content: end;
+        margin-left: auto;
+        align-items: center;
+    }
+
+    .header-padder li{
+        height: 17px;
     }
 }
