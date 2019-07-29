@@ -164,6 +164,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 5px 0;
 }
 
 /*================================================================================
@@ -309,6 +310,13 @@ main{
     color: black;
      }
 
+    .especial-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .especial-header p {margin-left: auto;}
 
 h3, p{
     margin: 8px 0;
@@ -359,6 +367,8 @@ footer {
 .round-btns a:hover{
     background-color: black;
 }
+
+.news-text span {text-decoration: line-through;}
 
 
 /*================================================================================
