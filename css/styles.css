@@ -19,7 +19,7 @@ nav {
     background-color: #fff;
 }
 
-ul, h2 {
+ul, h2, h5, h4 {
     padding: 0;
     margin: 0;
 }
@@ -241,13 +241,15 @@ main{
     ===========================================================================*/
     .categories-section {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         width: 100%;
     }
 
     .categories-article{
+        box-sizing: border-box;
         width: 100%;
-        margin: 20px;
+        padding: 0 20px;
         position: relative;
     }
 
@@ -269,7 +271,43 @@ main{
     position: relative;
     }
 
+    .latest-categories{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(255,68,34,.08);
+        max-height: 96px;
+        overflow: hidden;
+    }
 
+    .latest-categories div{
+        padding: 10px;
+    }
+
+    .latest-categories a{
+    display: block;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/mac-windows-os-vj-dj-music.png");
+    background-size: cover;
+    background-color: #000;
+    background-position: 50%;
+    height: 96px;
+    min-width: 96px;
+    margin-left: auto;
+    }
+
+    .categories-section li{
+        padding: 10px 0;
+        list-style-position: inside;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .categories-section a{
+    text-decoration: none;
+    color: gray;
+    }
+
+     .categories-section a:hover{
+    color: black;
+     }
 
 
 h3, p{
@@ -438,6 +476,19 @@ footer {
     .header-padder li{
           padding: 0 10px;
     }
+
+    .categories-section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .categories-article{
+        width: 50%;
+    }
+
+    .categories-img{
+        height: 35vw;
+    }
 }
 
 /*================================================================================
@@ -486,5 +537,13 @@ footer {
 
     .header-padder li{
         height: 17px;
+    }
+
+    .categories-article{
+        width: 33.3%;
+    }
+
+    .categories-img{
+        height: 23.3vw;
     }
 }
