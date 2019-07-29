@@ -1,220 +1,413 @@
 body {
-    margin: 0;
-    padding: 0;
-}
+    margin:0;
+    padding:0;
+    }
+    
+    header {
+    overflow:auto;
+    }
+    
+    nav {
+    align-items:center;
+    align-self:flex-start;
+    background-color:#fff;
+    box-shadow:0 0 32px rgba(0,0,0,.15);
+    display:flex;
+    height:48px;
+    position:sticky;
+    top:0;
+    z-index:1;
+    }
+    
+    ul,h2,h5,h4 {
+    margin:0;
+    padding:0;
+    }
+    
+    a {
+    text-decoration:none;
+    }
+    
+    .logo-container {
+    background:linear-gradient(to bottom right,#c09,#f42 85%);
+    box-sizing:border-box;
+    float:left;
+    height:48px;
+    padding:16px 20px;
+    width:106px;
+    z-index:10;
+    }
+    
+    .logo-container2 {
+    background:linear-gradient(to bottom right,#c09,#f42 85%);
+    box-sizing:border-box;
+    height:48px;
+    padding:16px 20px;
+    width:106px;
+    z-index:-1;
+    }
+    
+    .logo-container img {
+    height:16px;
+    width:66px;
+    z-index:10;
+    }
+    
+    .absolute-logo {
+    left:-106px;
+    position:absolute;
+    top:0;
+    z-index:-1;
+    }
+    
+    .absolute-logo img {
+    z-index:-1;
+    }
+    
+    .header-icon-cont {
+    margin-left:auto;
+    }
+    
+    .header-icon-cont button {
+    background-color:#fff;
+    border:none;
+    border-left:1px solid rgb(231,230,230);
+    font-size:18px;
+    height:48px;
+    width:48px;
+    }
+    
+    .top2-nav-container {
+    width:auto;
+    }
+    
+    .top2-nav-container ul {
+    display:flex;
+    flex-direction:row;
+    list-style-type:none;
+    }
+    
+    .top2-nav-container a {
+    color:gray;
+    padding-left:22px;
+    text-decoration:none;
+    }
+    
+    .top2-nav-container a:hover {
+    color:black;
+    }
+    
+    .fa-search {
+    color:gray;
+    }
+    
+    .fa-bars {
+    color:#f42;
+    }
+    
+    .hidden {
+    display:none;
+    }
+    
+    main {
+    clear:left;
+    }
+    
+    .common-article {
+    margin:8px;
+    }
+    
+    .article-wrap {
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1));
+    color:white;
+    height:214px;
+    position:relative;
+    width:100%;
+    }
+    
+    .article-footer {
+    bottom:8px;
+    left:10px;
+    position:absolute;
+    }
+    
+    .background1 {
+    background:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Museum-Wall-Mural-796x417.jpg) center center no-repeat;
+    }
+    
+    .background2 {
+    background:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-6-796x417.jpg) center center no-repeat;
+    }
+    
+    .background3 {
+    background:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/moralbehavior1200B-796x417.png) center center no-repeat;
+    }
+    
+    .common-article a {
+    text-decoration:none;
+    }
+    
+    .main-section {
+    margin-bottom:50px;
+    }
+    
+    .latest-news {
+    margin:8px;
+    padding-bottom:10px;
+    }
+    
+    .news-image {
+    background-size:cover;
+    min-height:75px;
+    min-width:75px;
+    }
+    
+    .news-text p {
+    color:gray;
+    }
+    
+    .news-text {
+    margin-left:8px;
+    max-width:675px;
+    }
+    
+    .flex-row-cont {
+    align-items:center;
+    display:flex;
+    flex-direction:row;
+    margin:5px 0;
+    }
+    
+    .hidden6 {
+    display:none;
+    }
 
-header {
-    overflow: auto;
-}
+/*================================================================================
+                Funding Section
+    ===========================================================================*/
+    .funding-header {
+        background-color:#f42;
+        color:white;
+        padding:10px;
+        padding-left:82px;
+        }
+        
+        .funding-value {
+        background-color:rgb(255,68,34);
+        background-color:rgba(255,68,34,.08);
+        padding:10px;
+        padding-left:82px;
+        }
+        
+        .funding-cont {
+        background-color: rgb(255,68,34);
+        background-color:rgba(255,68,34,0.05);
+        margin:11px 0;
+        position:relative;
+        width:100%;
+        }
+        
+        .funding-cont > a > p {
+        padding:11px;
+        }
+        
+        .funding-cont p {
+        color:rgb(82,81,81);
+        font-size:14px;
+        }
+        
+        .funding-cont a {
+        color:black;
+        }
+        
+        .latest-funding {
+        padding:20px;
+        }
+        
+        .funding-img {
+        left:11px;
+        position:absolute;
+        top:11px;
+        }
+        
+        .funding-img img {
+        height:60px;
+        width:60px;
+        }
+        
+        .funding-desc {
+        border-bottom:1px solid rgba(255,68,34,0.4);
+        padding:11px;
+        }
+        
+        .funding-desc i {
+        color:black;
+        padding-right:11px;
+        }
+        
+        .header-padder,.header-padder a {
+        color:#f42;
+        }
+        
+        .header-padder li {
+        list-style-type:none;
+        padding-bottom:11px;
+        }
+        
+        .header-padder a:hover {
+        color:black;
+        }
+        
+        .hidden4 {
+        display:none;
+        }
+/*================================================================================
+                Categories Section
+    ===========================================================================*/
+    .categories-section {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:100%;
+        }
+        
+        .categories-article {
+        box-sizing:border-box;
+        padding:0 20px;
+        position:relative;
+        width:100%;
+        }
+        
+        .categories-img {
+        height:70vw;
+        width:100%;
+        }
+        
+        .img-1 {
+        background:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Android--368x276.jpg) center center no-repeat;
+        background-size:cover;
+        }
+        
+        .article-gradient {
+        background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1));
+        color:white;
+        height:100%;
+        position:relative;
+        width:100%;
+        }
+        
+        .latest-categories {
+        background-color:rgb(255,68,34);
+        background-color:rgba(255,68,34,.08);
+        display:flex;
+        flex-direction:row;
+        max-height:96px;
+        overflow:hidden;
+        }
+        
+        .latest-categories div {
+        padding:10px;
+        }
+        
+        .latest-categories a {
+        background-color:#000;
+        background-image:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/mac-windows-os-vj-dj-music.png);
+        background-position:50%;
+        background-size:cover;
+        display:block;
+        height:96px;
+        margin-left:auto;
+        min-width:96px;
+        }
+        
+        .categories-section li {
+        border-bottom:1px solid lightgray;
+        list-style-position:inside;
+        padding:10px 0;
+        }
+        
+        .categories-section a {
+        color:gray;
+        text-decoration:none;
+        }
+        
+        .categories-section a:hover {
+        color:black;
+        }
+        
+        .especial-header {
+        align-items:center;
+        display:flex;
+        flex-direction:row;
+        }
+        
+        .especial-header p {
+        margin-left:auto;
+        }
+        
+        h3,p {
+        margin:8px 0;
+        }
+        
+        footer {
+        color:lightgray;
+        height:258px;
+        width:100%;
+        }
+        
+        .footer-links {
+        align-items:center;
+        background:#131313;
+        display:flex;
+        flex-direction:column;
+        font-size:12px;
+        height:60%;
+        justify-content:center;
+        }
+        
+        .footer-links a {
+        color:lightgray;
+        }
+        
+        .footer-links a:hover {
+        color:white;
+        }
+        
+        .footer-credits {
+        align-items:center;
+        background-color:black;
+        display:flex;
+        height:40%;
+        justify-content:center;
+        }
+        
+        .links li {
+        list-style-type:none;
+        padding:20px 16px;
+        }
+        
+        .round-btns a {
+        background-color:gray;
+        border:1px gray solid;
+        border-radius:50%;
+        height:35px;
+        padding:10px;
+        width:35px;
+        }
+        
+        .round-btns a:hover {
+        background-color:black;
+        }
+        
+        .news-text span {
+        text-decoration:line-through;
+        }
 
-nav {
-    height: 48px;
-    display: flex;
-    position: sticky;
-    top: 0;
-    box-shadow: 0 0 32px rgba(0,0,0,.15);
-    align-items: center;
-    align-self: flex-start;
-    z-index: 1;
-    background-color: #fff;
-}
 
-ul {
-    padding: 0;
-    margin: 0;
-}
+/*================================================================================
+                Media Query at Width > 768px;
+    ===========================================================================*/
 
-a {text-decoration: none;}
-
-.logo-container {
-    width: 106px;
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
-    height: 48px;
-    padding: 16px 20px;
-    box-sizing: border-box;
-    float: left;
-    z-index: 10;
-}
-
-.logo-container2 {
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
-    height: 48px;
-    padding: 16px 20px;
-    width: 106px;
-    box-sizing: border-box;
-    z-index: -1;
-}
-
-.logo-container img {
-    width: 66px;
-    height: 16px;
-    z-index: 10;
-}
-
-
-.absolute-logo {
-    position: absolute;
-    top: 0;
-    left: -106px;
-    z-index: -1;
-}
-
-.absolute-logo img {
-    z-index: -1;
-}
-
-.header-icon-cont {
-    margin-left: auto;
-}
-
-.header-icon-cont button {
-    height: 48px;
-    width: 48px;
-    font-size: 18px;
-    background-color: #fff;
-    border: none;
-    border-left: 1px solid rgb(231, 230, 230);
-}
-
-.top2-nav-container {
-    width: auto;
-}
-
-.top2-nav-container ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-}
-
-.top2-nav-container a {
-    padding-left: 22px;
-    text-decoration: none;
-    color: gray;
-}
-
-.top2-nav-container a:hover {color: black;}
-
-.fa-search {color: gray;}
-
-.fa-bars {color: #f42;}
-
-.hidden {display: none;}
-
-main{
-    clear: left;
-}
-
-.common-article{
-    margin: 8px;
-}
-
-.article-wrap{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1));
-    height: 214px;
-    width: 100%;
-    color: white;
-    position: relative;
-}
-
-.article-footer{
-    position: absolute;
-    left: 4px;
-    bottom: 4px;
-}
-
-.background1 {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Museum-Wall-Mural-796x417.jpg") center center no-repeat;
-}
-
-.background2 {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-6-796x417.jpg") center center no-repeat;
-}
-
-.background3 {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/moralbehavior1200B-796x417.png") center center no-repeat; 
-}
-
-.common-article a{
-    text-decoration: none;
-}
-
-.main-section {margin-bottom: 50px;}
-
-.latest-news{
-    margin: 8px;
-    padding-bottom: 50px;
-}
-
-.news-image {
-    min-width: 75px;
-    min-height: 75px;
-    background-size: cover;
-}
-
-.news-text p{
-    color: gray;
-}
-
-.news-text{
-    max-width: 675px;
-    margin-left: 8px;
-}
-
-.flex-row-cont{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-h3, p{
-    margin: 8px 0;
-}
-
-footer {
-    width: 100%;
-    height: 258px;
-    color: lightgray;
-}
-
-.footer-links {
-    height: 60%;
-    background: #131313;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-}
-
-.footer-links a {color: lightgray;}
-
-.footer-links a:hover {color: white;}
-
-.footer-credits {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40%;
-    background-color: black;
-}
-
-.links li{
-    padding: 20px 16px;
-    list-style-type: none;
-}
-
-.round-btns a{
-    border: 1px gray solid;
-    border-radius: 50%;
-    background-color: gray;
-    padding: 10px;
-    width: 35px;
-    height: 35px;
-}
-
-.round-btns a:hover{
-    background-color: black;
-}
 
 @media only screen and (min-width:768px){
     .hidden2{
@@ -227,11 +420,11 @@ footer {
     }
 
     .top1-nav-container {
-        width: auto;
-        height: 32px;
-        padding: 0;
-        background-color: black;
         align-items: center;
+        background-color: black;
+        height: 32px;               
+        padding: 0;
+        width: auto;        
     }
 
     .top1-nav-container ul {
@@ -242,8 +435,8 @@ footer {
 
     .top1-nav-container a {
         color: gray;
-        text-decoration: none;
         padding-left: 22px;
+        text-decoration: none;        
     }
 
     .top1-nav-container a:hover{
@@ -262,17 +455,17 @@ footer {
 
     .background1{
         box-sizing: border-box;
-        float: left;
-        width: 65%;
         height: 400px;
+        float: left;
+        width: 65%;        
     }
 
     .uncommon-article{
         box-sizing: border-box;
-        width: 31%;
-        float: left;
         height: 191px;
+        float: left;
         margin-left: 0;
+        width: 31%;
     }
 
     .main-section{
@@ -294,26 +487,69 @@ footer {
     }
 
     .flex-col-cont {
-        width: 33.33%;
-        flex-direction: column;
-        display: flex;
-        padding-right: 8px;
-        padding-left: 8px;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 33.33%;
     }
     .news-image {
-        width: 100%;
         height: 15vw;
+        width: 100%;
     }
 
+    .hidden4{
+        display: none;
+    }
+
+    .funding-cont{
+        height: 300px;
+    }
+
+    .header-padder ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bordered-ul{
+        border-left: 1px solid #f42;
+    }
+
+    .header-padder li{
+        padding: 0 10px;
+    }
+
+    .categories-section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .categories-article{
+        width: 50%;
+    }
+
+    .categories-img{
+        height: 35vw;
+    }
 }
 
+/*================================================================================
+                Media Query at Width > 1024px
+    ===========================================================================*/
+
 @media only screen and (min-width:1024px){
+    .hidden5{display: none;}
+
+    .hidden6{display: block;}
+
+    .hidden4{display: block;}
+
     .hidden3 {display: none;}
 
     .background1 {
-        height: 540px;
         background-size: cover;
+        height: 540px;
     }
 
     .uncommon-article {
@@ -326,12 +562,46 @@ footer {
 
     .news-image {max-height: 135px;}
 
-    .latest-news {
-        max-width: 1152px;
-        margin: auto;
-    }
-
     .header-padder {
         padding-left: 8px;
+    }
+
+    .max-section-width{
+        margin: auto;
+        max-width: 1152px;
+    }
+
+    .header-padder{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-padder ul{
+        align-items: center;
+        justify-content: end;
+        margin-left: auto;
+    }
+
+    .header-padder li{
+        height: 17px;
+    }
+
+    .categories-article{
+        width: 33.3%;
+    }
+
+    .categories-img{
+        height: 23.3vw;
+    }
+
+    .orange-gradient{
+        background: linear-gradient(to bottom right,rgba(255, 68, 34, 1), rgba(255, 68, 34, .9), rgba(255, 255, 255, 0) 60%);
+        height: 100%;
+    }
+
+    .orange-gradient img{
+        margin: 25px;
+        max-width: 500px;
+        width: 60%;
     }
 }
